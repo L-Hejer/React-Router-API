@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #646464;
+  padding: 20px;
+  margin: 0px;
+}
+
+.navBar-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 300px;
+}
+
+.login {
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.profile {
+  text-align: center;
+}
+.user-email {
+  color: #646464;
+  margin-top: 15px;
+}
